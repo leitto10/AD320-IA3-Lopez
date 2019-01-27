@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset= utf-8 />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="robots" content="noindex,nofollow" />
+        <title>Jose L Lopez</title>
+        <link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body class="main">
+        <h1 class="Logo"><a href="#">JavaScript addEventListener()</a></h1>
+        
+        <div id="first"><h1>This example uses the addEventListener() method to attach a click event to a button.</h1>
+            <button id="myBtn">Try it</button>
+            <p id="demo"></p></div>
+        
+        <div id="second"><h1>This example uses the addEventListener() method to attach a click event to a button</h1>
+            <button id="displayAlert">Try it</button></div>
+        
+        <div id="third" onmouseover="mOver(this)" onmouseout="mOut(this)">
+            <h1>Mouse Over Me</h1></div>
+        
+        <div id="fourth"><p>This div element has an onmousemove event handler that displays a random number every time you move your mouse inside this field.
+        <p>Click the button to remove the div's event handler.</p>
+            <button onclick="removeHandler()" id="myBtn">Remove</button><p id="demi"></p></div>
+        
+        <div id="fifth">
+              <h1 onclick="this.innerHTML='Ooops!'">Click on this text!</h1>
+        </div>
+        <script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>

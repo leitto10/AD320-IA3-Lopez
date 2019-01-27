@@ -1,0 +1,28 @@
+.main {
+    text-align: center;
+}
+#first {
+    border: solid;
+    background-color: aqua;
+}
+#second {
+    border: solid;
+    background-color: lightcoral;
+}
+#third {
+    border: solid;
+    background-color: lightblue;
+    
+}
+
+#fourth {
+  background-color: coral;
+  border: 1px solid;
+  padding: 50px;
+  color: white;
+  font-size: 20px;
+}
+#fifth {
+    border: solid;
+    background-color: antiquewhite;
+}
